@@ -1,44 +1,43 @@
-corpo {
-    margine: 60 px automatico;
-    larghezza: 70%;
+body {
+    margin: 60px auto;
+    width: 70%;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    imbottitura: 0px;
-    stile elenco: nessuno;
-    font-weight: grassetto;
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
 }
 nav ul li, footer ul li {
-    display: in linea;
-    margine destro: 20px;
+    display: inline;
+    margin-right: 20px;
 }
-un {
-    decorazione del testo: nessuna;
-    colore: #999;
+a {
+    text-decoration: none;
+    color: #999;
 }
 a:hover {
-    decorazione del testo: sottolineatura;
+    text-decoration: underline;
 }
 h1 {
-    dimensione del carattere: 3em;
+    font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
-P {
-    dimensione del carattere: 1.5em;
-    altezza della linea: 1.4em;
-    colore: #333;
+p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
 }
-piè di pagina {
-    bordo-alto: 1px solido #d5d5d5;
-    dimensione del carattere: .8em;
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
 }
 
 ul.posts { 
-    margine: 20px automatico 40px; 
-    dimensione del carattere: 1.5em;
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
 }
 
 ul.posts li {
-    stile elenco: nessuno;
+    list-style: none;
 }
-Non dimenticare di eseguire il co
